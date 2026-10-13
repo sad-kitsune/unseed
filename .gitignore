@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Compiled Java and inputs. The fixture classes are checked in: the tests read them.
+*.class
+!tests/fixtures/**/*.class
+*.jar
+
+# Output from the README examples
+/work/
+/out.json
+/out.txt
+/worklist.json
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
